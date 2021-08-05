@@ -1,6 +1,6 @@
 body{
 
-background-color: lightblue;
+background-color: white;
 
 }
 
@@ -41,6 +41,8 @@ font-size : 20px;
 background-color : #339CFF;
 }
 
+
+
 .button {
   border: none;
   color: white;
@@ -65,3 +67,44 @@ img {
 
 .button1 {background-color: #4CAF50;} /* Green */
 .button2 {background-color: #008CBA;} /* Blue */
+
+
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  margin-top:300px;
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: #339CFF;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
