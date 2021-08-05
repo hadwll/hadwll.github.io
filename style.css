@@ -4,6 +4,22 @@ background-color: lightblue;
 
 }
 
+h1{
+	font-style :bold;
+text-align :center;
+font-size : 60px;
+background-color : #339CFF;
+}
+
+h2{
+
+font-style :bold;
+padding-left : 50px;
+font-size : 15px;
+
+}
+
+
 .extra-font{
 font-style :bold;
 text-align :center;
@@ -19,6 +35,12 @@ background-color : #339CFF;
 }
 
 
+.std-font{ 
+font-style :bold;
+font-size : 20px;
+background-color : #339CFF;
+}
+
 .button {
   border: none;
   color: white;
@@ -29,6 +51,15 @@ background-color : #339CFF;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+img {
+  border-radius: 20px;
+  border: solid 2.5px black;
+  height:350px;
+  width: 450px;
+  margin-left: 400px;
+  
 }
 
 
